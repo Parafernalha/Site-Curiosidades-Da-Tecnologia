@@ -1,0 +1,240 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+@font-face {
+    font-family:'Idroid';
+    src: url('/fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+#corpo
+{
+    display: block;
+    text-align: justify;
+    background-color: #82ffba;
+  
+}
+
+a.externo::after
+{
+    content:'\00A0\1F517';
+}
+
+#conteudo-principal
+{
+    
+    width: 800px;
+    margin:auto;
+    background-color: white;
+    margin-bottom: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    box-shadow: 0.5px 0.5px 3px 0.3px ;
+    max-width: 1000px ; /*One of the settings in charge of the responsivity*/
+    min-width: 300px; /*One of the settings in charge of the responsivity*/
+
+    
+}
+#cabecalho
+{
+background-image: linear-gradient(#3CD882, #2A9559, #185333);
+padding: 10px;
+margin-bottom: 2px;
+box-shadow: 0.5px 0.5px 3px 0.3px;
+}
+#titulo-do-site
+{
+    text-align: center;
+    color:white;
+    font-family: 'Bebas Neue', cursive;
+    font-weight:bold;
+    font-size:40px;
+    margin-top:20px;
+    margin-bottom: 10px;
+}
+p#slogan
+{
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: whitesmoke;
+    text-shadow: black;
+}
+
+.item-menu
+{
+    margin-right: 15px;
+    color:white;
+    font-family:sans-serif;
+    font-weight:bold;
+    font-size:16px;
+}
+.item-menu:hover
+{
+    background-color: #ffffffa9;
+    color: black;
+    margin-left: 0px;
+    border-left: 0px;
+    padding: 11px;
+    border-radius: 5px;
+    
+}
+
+.titulo-verde
+{
+    background-image:linear-gradient(to right, #7effb881,#6effaf60, #b6ffd727);
+    padding-left: 13px;
+    color:#185333;
+    margin-left: 15px;
+    font-family: 'Idroid';
+}
+#primeiro-titulo
+{
+    padding-left: 13px;
+    padding-top: 10px;
+    font-family: 'Idroid';
+    color: #185333;
+}
+.texto-artigo
+{
+    text-indent: 30px;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    margin: 15px 0px;
+    font-size: 1em;
+    line-height: 2em; /*Setting the space beetwen the lines*/
+}
+main strong
+{
+    
+    color: #185333;
+    padding: 2px 6px;
+    font-weight: bold;
+}
+main a
+{
+
+    background-color: #7effb881;
+    color:#185333 ;
+    padding: 2px 6px;
+    font-weight: bold;
+    text-decoration: none;
+}
+main a:hover
+{
+    text-decoration: underline;
+    color: #25473593;
+
+}
+.imagens
+{
+    text-align: center;
+}
+
+/*#irina-blok
+{
+}*/
+img
+{
+width: 100%; /*One of the settings in charge of the responsivity*/
+}
+#Bugdroid-humano
+{
+    display: block;
+    max-width: 350px;
+    margin: auto;
+
+}
+#video
+{
+    background-color: #185333;
+    padding-top: 0;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.308);;
+    position: relative;
+    padding-bottom: 58.5%;
+    height: 390px;
+    width: 800px;
+}
+#video > iframe
+{
+    position:absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+#titulo-extra
+{
+    color: white;
+    font-weight: bold;
+    background-color:#3e9163da ;  
+    padding:10px;
+    border-top-right-radius:15px;
+    border-top-left-radius: 15px;
+    margin: 0;
+    font-family: sans-serif;
+}
+#conteudo-extra
+{
+    display: flex;
+    flex-direction: column;
+    border-radius:15px;
+    background-color:#a9ffd0;
+    margin: 17px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.308);
+}
+#conteudo-extra ul
+{
+    list-style-type: '\2714\00A0\00A0'; /*Não é compatível com todo tipo de navegador.*/
+    list-style-position: inside;
+}
+.texto-extra
+{
+    text-indent: 15px;
+    text-align: justify;
+    padding: 10px;
+}
+.lista
+{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    gap: 120px;
+    justify-content: left;
+    padding:20px ;
+    text-decoration: underline;
+    
+}
+#rodape
+{
+    background-color: #185333;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 0.8em;
+
+}
+#rodape a
+{
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+}
+#rodape a:hover
+{
+    text-decoration: underline;
+    color:#82ffba;
+    font-weight: bolder;
+}
+#ultimo-texto
+{
+    margin:0;
+}
